@@ -88,7 +88,7 @@ https://github.com/tomiashari/fb-autoreaction
 https://github.com/dfmcvn/getFBtoken
 
 ';
-echo "TOKEN KAMU :
+echo "Y5KH75XG7E:
  ";
 echo $fay;
 ?>
