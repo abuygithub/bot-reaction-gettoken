@@ -26,7 +26,7 @@ _____________________________________________
 |  |_| \_\___|\__,_|\___|\__|_|\___/|_| |_| |
 |___________________________________________|
 Thanks to : 
-https://github.com/M Fajar/fb-autoreaction
+https://github.com/MFajar/fb-autoreaction
 https://github.com/dfmcvn/getFBtoken
 
 ';
