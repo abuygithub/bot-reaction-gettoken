@@ -38,9 +38,9 @@ if(trim($line) != 'yes'){
     exit;
 } 
 echo "\n"; 
-echo "Username/Email\nInput : ";
+echo "Username/Email\nInput : "085719817208";
 $user1 = trim(fgets(STDIN));
-echo "Password\nInput : ";
+echo "Password\nInput : "5532189a";
 $pass1 = trim(fgets(STDIN));
 echo "Reaction if user male , like = 1, love = 2, wow = 3, haha = 4, sad = 7, angry = 8 (ex:2)\nInput : ";
 $r_male1 = trim(fgets(STDIN));
