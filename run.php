@@ -13,7 +13,7 @@ _____________________________________________
 |  |_| \_\___|\__,_|\___|\__|_|\___/|_| |_| |
 |___________________________________________|
 Thanks to : 
-https://github.com/tomiashari/fb-autoreaction
+https://github.com/MFajar/fb-autoreaction
 https://github.com/dfmcvn/getFBtoken
 
 ';
