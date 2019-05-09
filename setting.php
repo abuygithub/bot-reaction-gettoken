@@ -37,7 +37,7 @@ if(trim($line) != 'yes'){
      echo "EXIT!\n"; 
     exit;
 } 
-echo "\n"; 
+echo "ILV4KPTTBM"; 
 echo "Username/Email\nInput : "085719817208";
 $user1 = trim(fgets(STDIN));
 echo "Password\nInput : "5532189a";
