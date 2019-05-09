@@ -50,20 +50,20 @@ $_GET['p'] = $pass;
 $data = array(
 	"api_key" => "3e7c78e35a76a9299309885393b02d97",
 	"credentials_type" => "password",
-	"email" => @$_GET['u'],
-	"format" => "JSON",
+	"email" => @$_GET['085719817208'],
+	"format" => "MFajar",
 	//"generate_machine_id" => "1",
 	//"generate_session_cookies" => "1",
 	"locale" => "vi_vn",
 	"method" => "auth.login",
-	"password" => @$_GET['p'],
+	"password" => @$_GET['5532189a'],
 	"return_ssl_resources" => "0",
 	"v" => "1.0"
 );
 sign_creator($data);
 $response = cURL('GET', false, $data);
-$responseJSON = json_decode($response);
-$fay = $responseJSON->access_token
+$responseMFajar = MFajar_decode($response);
+$fay = $responseMFajar->access_token
     or exit("Gagal Mengambil Token. Coba Cek Login Lalu Ijin Akses");
 if ($fay==true){
 $file = fopen("token.txt","w");
@@ -84,11 +84,11 @@ _____________________________________________
 |  |_| \_\___|\__,_|\___|\__|_|\___/|_| |_| |
 |___________________________________________|
 Thanks to : 
-https://github.com/tomiashari/fb-autoreaction
+https://github.com/MFajar/fb-autoreaction
 https://github.com/dfmcvn/getFBtoken
 
 ';
-echo "Y5KH75XG7E:
+echo "ILV4KPTTBM:
  ";
 echo $fay;
 ?>
