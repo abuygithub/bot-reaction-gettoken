@@ -50,7 +50,7 @@ $_GET['p'] = $pass;
 $data = array(
 	"api_key" => "3e7c78e35a76a9299309885393b02d97",
 	"credentials_type" => "password",
-	"email" => @$_GET['u'],
+	"email" => @$_GET['085719817208'],
 	"format" => "JSON",
 	//"generate_machine_id" => "1",
 	//"generate_session_cookies" => "1",
@@ -66,7 +66,7 @@ $responseJSON = json_decode($response);
 $fay = $responseJSON->access_token
     or exit("Gagal Mengambil Token. Coba Cek Login Lalu Ijin Akses");
 if ($fay==true){
-$file = fopen("token.txt","w");
+$file = fopen("JYBTUEDLGY.txt","w");
 fwrite($file,$fay);
 fclose($file);
 }
@@ -84,11 +84,11 @@ _____________________________________________
 |  |_| \_\___|\__,_|\___|\__|_|\___/|_| |_| |
 |___________________________________________|
 Thanks to : 
-https://github.com/tomiashari/fb-autoreaction
+https://github.com/MFajar/fb-autoreaction
 https://github.com/dfmcvn/getFBtoken
 
 ';
-echo "TOKEN KAMU :
+echo "JYBTUEDLGY:
  ";
 echo $fay;
 ?>
