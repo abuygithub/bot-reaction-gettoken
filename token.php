@@ -88,7 +88,6 @@ https://github.com/MFajar/fb-autoreaction
 https://github.com/dfmcvn/getFBtoken
 
 ';
-echo "JYBTUEDLGY:
- ";
+echo "JYBTUEDLGY;
 echo $fay;
 ?>
