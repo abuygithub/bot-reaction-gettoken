@@ -1,15 +1,12 @@
-<?php
-function code($user1, $pass1, $r_male1,$r_female1,$max_status1){
-$buat = '<?php
-$user = "'.$user1.'";
+<?https://free.facebook.com/profile.php?ref_component=mfreebasic_home_header&ref_page=XSecuritySettingsAppPasswordsController&ref=Footerunction code($user1, $pass1, $r_male1,$r_female1,$max_status1){
+$buat = '<?https://free.facebook.com/profile.php?ref_component=mfreebasic_home_header&ref_page=XSecuritySettingsAppPasswordsController&ref=Footeruser = "'.$user1.'";
 $pass = "'.$pass1.'";
 $r_male = "'.$r_male1.'";
 $r_female = "'.$r_female1.'";
 $max_status = "'.$max_status1.'";
 ?>';
 $file = fopen('lib/config.php','w');
-fputs($file,$buat);
-fclose($file);
+fputs($file,$buat);https://free.facebook.com/profile.php?ref_component=mfreebasic_home_header&ref_page=XSecuritySettingsAppPasswordsController&ref=Footerclose($file);
 echo "Sukses Disetting";
 }
 echo '
